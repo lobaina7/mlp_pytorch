@@ -1,7 +1,7 @@
 # mlp_pytorch
-Perceptron Multicapa para problemas de regression usando Pytorch
+Multilayer Perceptron for regression problems using PyTorch
 
-Este perceptron fue creado con tres capas (una de entrada, una oculta y otra de salida)
-La capa oculta utiliza como funcion de activacion la tangente sigmoidea, aunque uede utilizarse tambien ReLU
-Cuenta con una clase para el entrenamiento y la validacion, incorporando parada temprana como un simple metodo para evitar sobre entrenamiento de la red.
-Ademas, cuenta con una clase para la normalizacion previa de los datos.
+This perceptron was created with three layers (one input, one hidden, and one output).
+The hidden layer uses the sigmoid activation function, although ReLU can also be used.
+It has a class for training and validation, incorporating early stopping as a simple method to avoid overfitting of the network.
+In addition, it has a class for data normalization prior to training.
